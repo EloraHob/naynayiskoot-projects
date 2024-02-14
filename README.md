@@ -1,4 +1,4 @@
-# Nay Nay is koot. 
+# Nay-Nay is koot. 
 [*Project Status: In Development*]
 
 Welcome to NayNayisKoot, a Next.js web application showcasing a collection of quizzes and other mini-games created during my coding journey. Hosted on Vercel.
@@ -78,4 +78,4 @@ Don't forget to give the project a star! Thanks again!
 
 A heartfelt thank you to my sister, whose love and support have been the inspiration behind this project. Your enthusiasm and creativity are the driving forces that keep me going.
 
-And, of course, a special shoutout to Chanel, the goodest doggo, whose vibrant personality helped shape this project.
+And, of course, a special shoutout to Nay-Nay, the goodest doggo, whose vibrant personality helped shape this project.
