@@ -1,0 +1,8 @@
+.div {
+    text-align: center;
+    border: 1px solid blue;
+    max-width: 30vw;
+    justify-content: center;
+    margin: auto;
+    margin-top: 25%;
+}
