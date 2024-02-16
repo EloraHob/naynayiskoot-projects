@@ -15,10 +15,14 @@ Welcome to NayNayisKoot, a Next.js web application showcasing a collection of qu
 
 ## Features
 
-- **Quizzes:** Test your knowledge across various topics with our diverse range of quizzes.
-- **Daily Activties:** Word puzzles, daily image generator, and more available each day. 
 - **User-Friendly Interface:** Enjoy an intuitive and seamless user experience across all devices.
 - **Responsive Design:** Fully optimized for desktop, tablet, and mobile use.
+- **Nay Nay Picture of the Day:** Start each day with a new photo of Nay Nay.
+- **Which Spy x Family Character Are You? Quiz:** Dive into the world of Spy x Family with our themed quiz to discover which character you resonate with most.
+- **Nay Nay Dress-up Game:** This click-and-drag game allows you to customize Nay Nay's look with hats, glasses, shirts, and different backgrounds.
+- **Rump the Rhythm:** Create a short song using fart sound bites, synchronized with cartoon roach animations that will surely bring a laugh.
+- **Sundae Scoop:** Test your reflexes by sliding an empty ice cream cone across the bottom of the screen to catch falling scoops of ice cream. See how many you can catch before time runs out!
+
 
 ## Getting Started
 
