@@ -9,6 +9,7 @@ export default function NaNayOTD() {
             width={600}
             height={300}
             alt="picture of Chanel"
+            priority
         />
         <p>Date taken: date goes here</p>
        </div>
