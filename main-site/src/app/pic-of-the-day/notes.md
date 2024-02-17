@@ -13,3 +13,9 @@ I could go with AWS tools S3 and CloudFront as the CDN and cloud storage solutio
 I could stick with Cloudflare, which is known to be beginner-friendly. Might present problems later if I decide to integrate AWS later. 
 
 I'm going to stick with AWS S3 and CloudFront for this project. I'm not in a rush to get this project set up, and using AWS would be industry relevant and look better on a resume. 
+
+## Implementation & Logic
+
+I have the image collection set up so that each image is given a numeric name. Currently, there are 20 images in the collection, but this figure is expected to grow as more images are uploaded.
+
+math.rand() could be used to randomly select a number between 1 and [folderSize / 2] 
