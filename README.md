@@ -1,9 +1,9 @@
 # Nay-Nay is koot. 
 [*Project Status: In Development*]
 
-Welcome to NayNayisKoot, a Next.js web application showcasing a collection of quizzes and other mini-games created during my coding journey. Hosted on Vercel.
+Welcome to *nay nay is koot.*, a Next.js web application showcasing a collection of various projects and other mini-games created during my coding journey. Hosted on Vercel.
 
-**Live Site:** [NayNayIsKoot](https://naynayiskoot.vercel.app)
+**Live Site:** [nay nay is koot.](https://www.naynayiskoot.dog)
 
 ## Table of Contents
 
@@ -26,7 +26,7 @@ Welcome to NayNayisKoot, a Next.js web application showcasing a collection of qu
 
 ## Getting Started
 
-To run NayNayisKoot locally, follow these simple steps:
+To run *nay nay is koot.* locally, follow these simple steps:
 
 ### Prerequisites
 
