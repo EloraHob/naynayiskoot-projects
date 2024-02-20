@@ -1,10 +1,11 @@
 import styles from "../page.module.css"
+import Image from 'next/image';
 
 export default function Header() {
     return (
         <header className={styles.header}>
-            <h1>nay nay is koot.</h1>
             <nav>
+                <h1>nay nay is koot.</h1>
                 <ul className={styles.navList}>
                     <li>Home</li>
                     <li>About</li>

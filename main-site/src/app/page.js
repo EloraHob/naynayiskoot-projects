@@ -19,11 +19,10 @@ export default function Home() {
           >
             By{" "}
             <Image
-              src="/vercel.svg"
+              src="/nay-logo.png"
               alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
+              width={200}
+              height={150}
               priority
             />
           </a>
