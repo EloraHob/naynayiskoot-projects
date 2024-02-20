@@ -1,6 +1,5 @@
 import styles from "./page.module.css";
 import Image from "next/image";
-import Head from 'next/head';
 
 export default function Home() {
     return (
@@ -18,17 +17,7 @@ export default function Home() {
 
             <main className={styles.main}>
                 <section className={styles.pictureOfTheDay}>
-                    <div className={styles.pictureHeading}>
-                        <h2>Picture of the Day</h2>
-                    </div>
                     <div className={styles.pictureContainer}>
-                        <Image
-                            src="/naynay-pics/20.jpg"
-                            alt="Nay Nay Picture of the Day"
-                            layout="fill"
-                            objectFit="cover"
-                            priority
-                        />
                     </div>
                 </section>
             </main>
