@@ -1,6 +1,7 @@
 import styles from "./page.module.css";
+import Image from "next/image";
 
-export default function NayOfTheDay() {
+export default function Home() {
     return (
         <div className={styles.container}>
             <header className={styles.header}>
@@ -16,13 +17,9 @@ export default function NayOfTheDay() {
 
             <main className={styles.main}>
                 <section className={styles.pictureOfTheDay}>
-                    
+                    <div className={styles.pictureContainer}>
+                    </div>
                 </section>
-
-                <section className={styles.gamesSection}>
-                    
-                </section>
-
             </main>
         </div>
     );
