@@ -9,8 +9,8 @@ export default function Header() {
                 <Image
                     src="/logo.png"
                     alt="nay nay is koot. logo"
-                    width={200}
-                    height={260}
+                    width={300}
+                    height={360}
                     priority
                 />
             </div>
@@ -34,5 +34,5 @@ quizzes, games, statistics, etc.)... but for now I'm going to keep it simple.
 Making the Next/Image responsive was needlessly difficult. I'd probably have 
 finished working on the css in half the time if Next/Image wasn't so finicky. 
 The height and width props must be defined in the Image tag but they can be 
-overriden in CSS. Special terms and conditions apply. 
+overriden in CSS-- but the constant console warnings are frustrating to debug. 
 */

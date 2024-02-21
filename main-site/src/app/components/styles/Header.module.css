@@ -6,6 +6,6 @@
 }
 
 .logo img {
-    width: 30vh;
+    max-width: 60vw;
     height: auto;
 }
