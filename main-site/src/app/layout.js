@@ -1,10 +1,10 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+export const inter = Inter({subsets: ['latin']});
 
 export const metadata = {
-  title: "nay nay is koot.",
+  title: "NAY NAY IS KOOT.",
   description: "A collection of interactive games and activities for kids, featuring picture-of-the-day fun, playful quizzes, and creative music-making.",
 };
 

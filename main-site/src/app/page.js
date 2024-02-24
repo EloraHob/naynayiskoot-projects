@@ -1,4 +1,5 @@
 import styles from "./page.module.css";
+import "./globals.css";
 
 /* 
 I am not doing this right now because I don't have many components (yet), 
@@ -8,12 +9,23 @@ so I can import these components more cleanly, like so:
 import { Home, Contact, Login, SignUp } from '/pages';
 */
 import Footer from "./components/Footer";
-import Header from "./components/Header";
+import Image from 'next/image';
 
 export default function Home() {
   return (
     <>
-      <Header />
+      <header>
+        <div className={styles.logo_container}>
+          <Image
+            priority
+            alt="nay nay is koot"
+            src="/naynayiskoot.png"
+            width={750}
+            height={375}
+            className={styles.logo_img}
+          />
+        </div>
+      </header>
       <main className={styles.main}>
 
         <div className={styles.grid}>
@@ -23,9 +35,9 @@ export default function Home() {
             target="/quiz"
             rel="noopener noreferrer"
           >
-            <h2>
+            <h1>
               Quiz <span>-&gt;</span>
-            </h2>
+            </h1>
             <p>Which Spy x Family Character Are You?</p>
           </a>
 

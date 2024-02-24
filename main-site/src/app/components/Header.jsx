@@ -1,5 +1,5 @@
 import styles from "./styles/Header.module.css"
-import Image from 'next/image';
+import Image from "next/image";
 
 // TODO: acquire higher quality logo file. 
 export default function Header() {
