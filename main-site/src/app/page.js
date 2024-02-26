@@ -1,5 +1,7 @@
+import Image from 'next/image';
 import styles from "./page.module.css";
-import "./globals.css";
+import Footer from "./components/Footer";
+import logo from '/public/naynayiskoot.png';
 
 /* 
 I am not doing this right now because I don't have many components (yet), 
@@ -8,9 +10,6 @@ so I can import these components more cleanly, like so:
 
 import { Home, Contact, Login, SignUp } from '/pages';
 */
-import Footer from "./components/Footer";
-import Image from 'next/image';
-import logo from '/public/naynayiskoot.png'
 
 /* NOTES AND CONSIDERATIONS
 
@@ -47,8 +46,8 @@ export default function Home() {
           />
         </div>
       </header>
-      <main className={styles.main}>
 
+      <main className={styles.main}>
         <div className={styles.grid}>
           <a
             href="/"
@@ -56,48 +55,43 @@ export default function Home() {
             target="/quiz"
             rel="noopener noreferrer"
           >
-            <h1>
-              Quiz <span>-&gt;</span>
-            </h1>
-            <p>Which Spy x Family Character Are You?</p>
+            <h1>Nay of the Day</h1>
           </a>
 
           <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            href="/"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2>
-              Dress-Up <span>-&gt;</span>
-            </h2>
-            <p>Click and drag to dress Chanel up in some wacky outfits!</p>
+            <h2>Dress-Up</h2>
           </a>
 
           <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            href="/"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2>
-              Fart <span>-&gt;</span>
-            </h2>
-            <p>Got gas? Make music with it.</p>
+            <h2>Fart Rat Music</h2>
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            href="/"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2>
-              Deploy <span>-&gt;</span>
-            </h2>
-            <p>
-              Instantly deploy your Next.js site to a shareable URL with Vercel.
-            </p>
+            <h2>Quiz</h2>
+          </a>
+
+          <a
+            href="/"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2>Ice Cream Scramble</h2>
           </a>
         </div>
       </main>
