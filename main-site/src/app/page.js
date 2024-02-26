@@ -10,6 +10,29 @@ import { Home, Contact, Login, SignUp } from '/pages';
 */
 import Footer from "./components/Footer";
 import Image from 'next/image';
+import logo from '/public/naynayiskoot.png'
+
+/* NOTES AND CONSIDERATIONS
+
+  // STRUGGLES WITH NEXT/IMAGE
+    I struggled VERY hard with Next.JS Next/Image component. 
+    I spent like 3 days on this stupid issue. Initially, I was importing the logo 
+    image directly user `src='img.png'` syntax. This was problematic because this 
+    method requires explicit definition of width and height properties. Errors and 
+    warnings are thrown in the console if you modify the width or height using CSS 
+    with this method. 
+
+    The solution took me way too long to find, but I just needed to import the image
+    with `import logo from `/filepath/image.png` syntax to avoid explicitly defining 
+    the image size. 
+
+    Future optimization might involve research into the 'sizes' prop to adjust img size
+    based on screen size. 
+
+    TODO: Read https://nextjs.org/docs/app/api-reference/components/image. 
+  
+  // ANOTHER PROBLEM GOES HERE
+*/
 
 export default function Home() {
   return (
@@ -17,12 +40,10 @@ export default function Home() {
       <header>
         <div className={styles.logo_container}>
           <Image
-            priority
+            src={logo}
             alt="nay nay is koot"
-            src="/naynayiskoot.png"
-            width={750}
-            height={375}
-            className={styles.logo_img}
+            priority
+            className={styles.logo}
           />
         </div>
       </header>
