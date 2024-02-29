@@ -7,10 +7,11 @@
 
 /* TODO: Adjust for larger screen sizes */
 .logo {
-  width: 70vw;
+  width: 100%;
+  max-width: 700px;
   height: auto;
-  margin-top: 20%;
-  margin-bottom: 10%;
+  margin: 3em 0;
+  padding: 0 2em;
 }
 
 .main {
@@ -18,19 +19,27 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center; 
-  min-height: 100vh;
+  min-height: 100%;
 }
 
+/* I am not confident that grid is the best solution here.  */
+/*   
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(25%, auto));
+    max-width: 100%;
+    width: var(--max-width);
+    gap: 10px;
+  }
+  */
 .grid {
-  display: grid;
-  grid-template-columns: repeat(5, minmax(25%, auto)); /* What does minmax do? */
-  max-width: 100%;
-  width: var(--max-width);
-  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  padding-bottom: 2em;
 }
 
 .card {
-  height: 20vh;
   padding: 1rem 1.2rem;
   /* border-radius: var(--border-radius); */
   /* border: 1px solid rgba(var(--card-border-rgb), 0); */

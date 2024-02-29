@@ -30,7 +30,13 @@ import { Home, Contact, Login, SignUp } from '/pages';
 
     TODO: Read https://nextjs.org/docs/app/api-reference/components/image. 
   
-  // ANOTHER PROBLEM GOES HERE
+  // LEARNING ABOUT HTML <a> TAG ATTRIBUTES
+    target - specifies where to open the linked document.
+      <a target="_blank" href=""> //open doc in new window
+
+    rel - defines the relationship between a linked resource and the current document.
+      <a rel="noopener noreferrer"> //prevents a link from changing OG page-- needed for security"
+    
 */
 
 export default function Home() {
@@ -40,7 +46,7 @@ export default function Home() {
         <div className={styles.logo_container}>
           <Image
             src={logo}
-            alt="nay nay is koot"
+            alt="Nay Nay Is Koot logo"
             priority
             className={styles.logo}
           />
@@ -52,10 +58,10 @@ export default function Home() {
           <a
             href="/"
             className={styles.card}
-            target="/quiz"
+            target="_blank"
             rel="noopener noreferrer"
           >
-            <h1>Nay of the Day</h1>
+            <h2>Nay of the Day</h2>
           </a>
 
           <a
