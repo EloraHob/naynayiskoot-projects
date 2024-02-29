@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import styles from "./page.module.css";
-import Footer from "./components/Footer";
 import logo from '/public/naynayiskoot.png';
 
 /* 
@@ -101,7 +100,11 @@ export default function Home() {
           </a>
         </div>
       </main>
-      <Footer />
+
+      <footer className={styles.footer}>
+        <p>Made with <span aria-label="love" aria-hidden="true">&#128150;</span> by <a href="https://www.elora.codes" rel="noopener noreferrer">Your Big Sister</a></p>
+        <p>&copy; 2024 Nay Nay is Koot. All rights reserved.</p>
+      </footer>
     </>
   );
 }
