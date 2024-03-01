@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import styles from "./page.module.css";
-import logo from '/public/naynayiskoot.png';
+import logo from '/public/NNIK-logoBLUE.svg';
+import Link from 'next/link';
+
 
 /* 
 I am not doing this right now because I don't have many components (yet), 
@@ -54,14 +56,13 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.grid}>
-          <a
-            href="/"
+          <Link
+            href="/nay-of-the-day"
             className={styles.card}
-            target="_blank"
             rel="noopener noreferrer"
           >
             <h2>Nay of the Day</h2>
-          </a>
+          </Link>
 
           <a
             href="/"
