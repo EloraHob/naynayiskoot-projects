@@ -24,8 +24,10 @@ import { ListBucketsCommand, S3Client } from "@aws-sdk/client-s3";
 
 // new config stuff:
 const config = {
+    // Telling AWS where to go:
     bucketName: process.env.S3_BUCKET_NAME,
     region: process.env.AWS_ACCESS_KEY_ID,
+    // Telling AWS who you are:
     credentials: {
         accessKeyId: process.env.AWS_ACCESS_KEY_ID,
         secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY
@@ -81,7 +83,7 @@ export default function Page() {
             </header>
             <main className={styles.main}>
                 <div>
-                    Stuff will go here. Don't fret.
+                    Stuff will go here. Don&#39;t fret.
                 </div>
             </main>
         </div>
