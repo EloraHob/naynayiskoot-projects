@@ -1,15 +1,37 @@
 import styles from "./page.module.css";
 import Image from "next/image";
-import AWS from "aws-sdk";
 
-// This function tells AWS where to find the access keys while keeping 
-// the keys hidden as env variables so users can't perform malicious tasks. 
-AWS.config.update({
+// This might not be correct
+import { ListBucketsCommand, S3Client } from "@aws-sdk/client-s3";
+
+
+/* This function tells AWS where to find the access keys while keeping 
+   the keys hidden as env variables so users can't perform malicious tasks.
+   
+   ** NOTE **
+   In AWS SDK v3, AWS.config.update is no longer valid. Instead, syntax has 
+   been changed so only the necessary services can be explicitly imported. 
+*/
+
+/* old config stuff:
+    AWS.config.update({
+        bucketName: process.env.S3_BUCKET_NAME,
+        accessKeyId: process.env.AWS_ACCESS_KEY_ID, 
+        secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY, 
+        region: process.env.AWS_REGION 
+    });
+*/
+
+// new config stuff:
+const config = {
     bucketName: process.env.S3_BUCKET_NAME,
-    accessKeyId: process.env.AWS_ACCESS_KEY_ID, 
-    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY, 
-    region: process.env.AWS_REGION 
-});
+    region: process.env.AWS_ACCESS_KEY_ID,
+    credentials: {
+        accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+        secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY
+    }
+}
+
 
 /* Per Gemini:
     Instead of listObjectsV2, you'll now use a function 
@@ -59,7 +81,7 @@ export default function Page() {
             </header>
             <main className={styles.main}>
                 <div>
-                   Stuff will go here. Don't fret.
+                    Stuff will go here. Don't fret.
                 </div>
             </main>
         </div>
