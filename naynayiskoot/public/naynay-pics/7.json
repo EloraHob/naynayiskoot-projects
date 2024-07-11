@@ -1,0 +1,22 @@
+{
+  "title": "7.jpg",
+  "description": "",
+  "imageViews": "0",
+  "creationTime": {
+    "timestamp": "1708145535",
+    "formatted": "Feb 17, 2024, 4:52:15 AM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1606605080",
+    "formatted": "Nov 28, 2020, 11:11:20 PM UTC"
+  },
+  "url": "https://photos.google.com/photo/AF1QipMGyrWPesU-Rj6wIpU6AJdeS5LsyI1BGzwNDEHy",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}
