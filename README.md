@@ -15,11 +15,11 @@ Welcome to *nay nay is koot.*, a Next.js web application showcasing a collection
 
 ## Features
 
-- **Nay Nay Picture of the Day:** Start each day with a new photo of Nay Nay.
+- **Picture of the Day:** Start each day with a new photo of Nay Nay.
 
-- **Which Spy x Family Character Are You? Quiz:** Dive into the world of Spy x Family with our themed quiz to discover which character you resonate with most.
+- **Spy x Family Quiz:** Dive into the world of Spy x Family with our themed quiz to discover which character you resonate with most.
 
-- **Crawling Crooners:** Create a short tune by dragging notes up and down on a music staff and selecting an instrument.
+- **Music-Maker Game:** Create a short tune by dragging notes up and down on a music staff and selecting an instrument.
 
 
 ## Getting Started
