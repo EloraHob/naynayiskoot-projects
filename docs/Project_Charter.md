@@ -1,4 +1,4 @@
-![Nay Nay is Koot project logo](wireframes/naynayiskoot-logo.png)
+![Nay Nay is Koot project logo](wireframes/naynayiskoot.png)
 
 # **Project Charter** 
 |||

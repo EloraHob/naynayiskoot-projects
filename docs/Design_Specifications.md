@@ -1,8 +1,8 @@
-![Nay Nay is Koot project logo](wireframes/naynayiskoot-logo.png)
+![Nay Nay is Koot project logo](wireframes/naynayiskoot.png)
 # Design Specifications
 ###### This document outlines the design specifications for the _NAY NAY IS KOOT_, a single-page website that will host various quizzes, minigames, etc. for a 12-year-old audience. It covers the visual design, layout, and user interface elements of the website. For the most up-to-date version and change history, please refer to the GitHub repository.
 
-###### Last Updated: JULY 11 2024
+###### Last Updated: JULY 14 2024
 
 ****
 
