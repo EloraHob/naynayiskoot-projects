@@ -6,16 +6,23 @@
 | Project| NAY NAY IS KOOT |
 | Version | 1.0
 | Status | Draft Mode 🚧 |
-| Last Update | JULY 14 2024 |
+| Last Update | JULY 15 2024 |
 | Author | Elora Hoberecht |
-| Notes| Updated second draft |
+| Notes| Updated project overview |
 
 
 ## 1. Project Overview
-*NAY NAY IS KOOT* is a personal web development project aimed at enhancing my programming skills while creating an engaging platform for my 12-year-old sister. This single-page web application will feature a Spotify widget and three interactive activities, serving as both a learning experience for me and an entertaining space for my sister, with potential interest from family members and her friends. 
+NAY NAY IS KOOT is a personal web development project aimed at creating an engaging, interactive platform for my little sister. The single-page web application's Minimum Viable Product (MVP) features a Spotify widget and three distinct activity microservices:
 
-The project will focus on implementing microservices architecture and integrating external APIs, providing a comprehensive learning experience in modern web development practices.
+1. Quiz Generator
+2. Picture of the Day reveal
+3. Music Maker game
 
+This initial version serves as both a learning experience in modern web development practices and an entertaining, age-appropriate digital space for the primary user and potentially their friends and family.
+
+The application is designed with scalability in mind, allowing for the potential addition of new activities and features in future iterations. While the MVP focuses on delivering a core set of engaging functionalities, the underlying architecture and design approach support seamless expansion to incorporate new ideas and user-requested features over time.
+
+This project aims to balance immediate learning objectives and user engagement with the flexibility to grow and evolve based on user feedback and developer expertise.
   ### 1.1 Goals
    - Develop fundamental web development skills through hands-on project work
    - Create a fun, interactive web space centered around my sister's interests
