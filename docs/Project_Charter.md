@@ -8,7 +8,7 @@
 | Status | Draft Mode 🚧 |
 | Last Update | JULY 14 2024 |
 | Author | Elora Hoberecht |
-| Notes| Updated first draft |
+| Notes| Updated second draft |
 
 
 ## 1. Project Overview
@@ -28,7 +28,7 @@ The project will focus on implementing microservices architecture and integratin
    - Develop project management and version control skills
 
   ### 1.3 Key Performance Indicators (KPIs)
-   - **User Engagement:** Average session duration > 30 minutes
+   - **User Engagement:** Average session duration > 10 minutes
    - **Activity Completion:** Users complete at least 1 different activity per session
    - **Technical Performance:** Page load time < 3 seconds, API response time < 200ms
    - **User Satisfaction:** Positive feedback from primary user (sister)
@@ -69,7 +69,7 @@ The project will focus on implementing microservices architecture and integratin
   ### 3.1 Main Webpage
    - SPA with responsive design
    - Integrated Spotify Widget
-   - Navigation interface for access microservices
+   - Navigation interface for accessing microservices
   ### 3.2 Activity Microservices
   ##### **DYNAMIC QUIZ GENERATOR**
     * Creates quizzes from JSON data (MVP incl. 1 JSON quiz)
